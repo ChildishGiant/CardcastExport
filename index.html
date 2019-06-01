@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Export Cardcast decks to JSON, TXT and more">
+	<meta name="keywords" content="Cardcast,export">
+	<meta name="author" content="childishgiant">
+	<title>cardcast-export</title>
+	<link href="css/main.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- <div class="container"> -->
+		<h1 class="mb0">cardcast-export</h1>
+
+		<h3>Export Cardcast decks to JSON, TXT and more</h3>
+
+		<div class="mdc-text-field mb20">
+			<input type="text" id="deckCode" class="mdc-text-field__input" required maxlength="5" minlength="5"
+				style="text-transform: uppercase;">
+			<label class="mdc-floating-label" for="deckCode">Deck code</label>
+			<div class="mdc-line-ripple"></div>
+		</div>
+
+		<button class="mdc-button mdc-button--raised" id="fetch">
+			<span class="mdc-button__label">Fetch</span>
+		</button>
+
+		<div class="footer">
+			Forked from <a href="https://github.com/devgianlu/CardcastExport">devgianlu/CardcastExport</a>
+		</div>
+
+	<!-- </div> -->
+
+
+</body>
+
+<script src="vendor/ripple/mdc.ripple.min.js"></script>
+<script src="vendor/textfield/mdc.textfield.min.js"></script>
+<script src="js/index.min.js"></script>
+
+</html>
