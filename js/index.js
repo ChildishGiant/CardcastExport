@@ -9,7 +9,7 @@ document.getElementById("fetch").onclick = function () {
 		return;
 	}
 
-	document.location = `/code.html?code=${value}`;
+	document.location = `code.html?code=${value}`;
 };
 
 mdc.textfield.MDCTextField.attachTo(document.querySelector(".mdc-text-field"));
