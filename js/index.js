@@ -3,7 +3,7 @@
 const deckCode = document.getElementById("deckCode");
 
 document.getElementById("fetch").onclick = function () {
-	const value = deckCode.value;
+	const value = deckCode.value.toUpperCase();
 	if (!value || value.length !== 5) {
 		console.error(`Invalid code: ${value}`);
 		return;
